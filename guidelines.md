@@ -163,7 +163,7 @@ Below are the procedures and guidelines that need to be followed by any translat
 11. Contribution screenshot in the Customisation Database should only be the flag of the country whose the language is spoken. For example, the flag of France for the French language.
 
 
-12. Revision name in the Customisation Database should be left blank for more understanding.
+12. Revision name in the Customisation Database should be left blank, contain the phpBB package version and/or package release name (e.g. "**3.0.12 / Richard 'D¡cky' Foote**" for 3.0.12) for more understanding.
 
 
 13. The Demo URL in the Customisation Database must be empty, unless you want to put a link to an international community ([officially](https://www.phpbb.com/support/intl/ "officially") listed or not) related to the language of the contribution. For example, http://www.phpbbarabia.com/ as Demo URL concerning the [Arabic language](https://www.phpbb.com/customise/db/translation/arabic/ "Arabic language") is allowed.
