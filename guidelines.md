@@ -1,4 +1,4 @@
-# Language Packs Submission Policy
+# Language Pack Submission Policy
 
 Below are the procedures and guidelines that need to be followed by any translator submitting a language pack to our Customisation Database. All approved language packs can be found in our [Language Packs Database](https://www.phpbb.com/customise/db/language_packs-25/ "Language Packs Database"). If you submit your language pack to our Customisation Database, it will first be automatically sent to the Translations & International Support Teams Manager for validation. He is responsible for ensuring that your submission follows the guidelines below. Failure to comply with the following instructions could lead to an instant denial of your submission. Please note the Translations & International Support Teams Manager has full discretion on what he approves or denies. This process can sometimes take a considerable amount of time, so it's in your best interest to follow all of the guidelines from the start. If your language pack is denied and then resubmitted, it is placed at the end of the queue.
 

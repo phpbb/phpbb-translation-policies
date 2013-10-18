@@ -1,4 +1,4 @@
-# Language Pack Validation
+# Language Pack Validation Policy
 
 Below are the validation rules for phpBB language packages.
 

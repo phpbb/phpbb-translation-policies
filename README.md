@@ -2,4 +2,7 @@
 
 Policies for **phpBB 3.0 Olympus**
 
-+ [Language Packs Submission Policy](guidelines.md "Language Packs Submission Policy")
++ [Language Pack Submission Policy](guidelines.md "Language Pack Submission Policy")
+
++ [Language Pack Validation Policy](validation.md "Language Pack Validation Policy")
+
