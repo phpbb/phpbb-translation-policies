@@ -166,10 +166,10 @@ Concerning the `LICENSE` file, it is automatically added during the upload proce
                           imageset.cfg
 
 
-5. Submissions have to follow as much as possible the [Translation (i18n/L10n) Guidelines](https://area51.phpbb.com/docs/30x/coding-guidelines.html#translation "Translation (i18n/L10n) Guidelines") recommandantions, especially the [Writing style](https://area51.phpbb.com/docs/30x/coding-guidelines.html#writingstyle "Writing style").
+5. Submissions have to follow as much as possible the [3.1 Translation (i18n/L10n) Guidelines](https://area51.phpbb.com/docs/31x/coding-guidelines.html#translation "3.1 Translation (i18n/L10n) Guidelines") recommandantions, especially the [3.1 Writing style](https://area51.phpbb.com/docs/31x/coding-guidelines.html#writingstyle "3.1 Writing style").
 
 
-6. All the PHP and text files have to be encoding in UTF-8 without BOM. Many modern text editors use this as a default setting, but we recommend checking it in your editor's settings. We recommend you [Notepad++](http://notepad-plus.sourceforge.net/ "Notepad++") or [PSPad](http://www.pspad.com/en/ "PSPad"), both lightweight and free.
+6. All the PHP and text files have to be encoding in UTF-8 without BOM and a new line at the end of the file. Many modern text editors use this as a default setting, but we recommend checking it in your editor's settings. We recommend you [Notepad++](http://notepad-plus.sourceforge.net/ "Notepad++") or [PSPad](http://www.pspad.com/en/ "PSPad"), both lightweight and free.
 
 
 7. The translation is mostly your work and you have a right to hold a copyright and names to it.
@@ -181,7 +181,7 @@ Concerning the `LICENSE` file, it is automatically added during the upload proce
 9. Submissions have to be submitted as a single zip file. For information, the Customisation Database will automatically name `languagename_versionnumber.zip` your uploaded language pack. For example, if a Brazilian Portuguese language pack author uploads an archive named `Brasileiro_1.0.5.zip`, it will be automatically changed to `brazilian_portuguese_1_0_5.zip`.
 
 
-10. Contribution description in the Customisation Database should be translated into English in addition of your local language. Some administrators can download your translation without speak your language.
+10. Contribution description in the Customisation Database should be translated into English in addition of your local language. Some administrators might want to download your translation without speak your language.
 
 
 11. Contribution screenshot in the Customisation Database should only be the flag of the country whose the language is spoken. For example, the flag of France for the French language.
