@@ -27,6 +27,7 @@ Concerning the `LICENSE` file, it is automatically added during the upload proce
                        common.php
                        database.php
                        email.php
+                       extensions.php
                        forums.php
                        groups.php
                        index.htm
@@ -41,15 +42,29 @@ Concerning the `LICENSE` file, it is automatically added during the upload proce
                        styles.php
                        users.php
                     email/
+                       short/
+                          bookmark.txt
+                          newtopic_notify.txt
+                          post_approved.txt
+                          post_disapproved.txt
+                          post_in_queue.txt
+                          privmsg_notify.txt
+                          quote.txt
+                          report_pm.txt
+                          report_post.txt
+                          topic_approved.txt
+                          topic_disapproved.txt
+                          topic_in_queue.txt
+                          topic_notify.txt
                        admin_activate.txt
                        admin_send_email.txt
                        admin_welcome_activated.txt
                        admin_welcome_inactive.txt
+                       bookmark.txt
                        coppa_resend_inactive.txt
                        coppa_welcome_inactive.txt
                        email_notify.txt
                        forum_notify.txt
-                       group_added.txt
                        group_approved.txt
                        group_request.txt
                        index.htm
@@ -59,13 +74,18 @@ Concerning the `LICENSE` file, it is automatically added during the upload proce
                        pm_report_deleted.txt
                        post_approved.txt
                        post_disapproved.txt
+                       post_in_queue.txt
                        privmsg_notify.txt
                        profile_send_email.txt
                        profile_send_im.txt
+                       quote.txt
                        report_closed.txt
                        report_deleted.txt
+                       report_pm.txt
+                       report_post.txt
                        topic_approved.txt
                        topic_disapproved.txt
+                       topic_in_queue.txt
                        topic_notify.txt
                        user_activate.txt
                        user_activate_inactive.txt
@@ -75,8 +95,7 @@ Concerning the `LICENSE` file, it is automatically added during the upload proce
                        user_resend_inactive.txt
                        user_welcome.txt
                        user_welcome_inactive.txt
-                    mods/
-                       index.htm
+                    app.php
                     AUTHORS (optional)
                     captcha_qa.php
                     captcha_recaptcha.php
@@ -91,6 +110,8 @@ Concerning the `LICENSE` file, it is automatically added during the upload proce
                     LICENSE
                     mcp.php
                     memberlist.php
+                    migrator.php
+                    plupload.php
                     posting.php
                     README (optional)
                     search.php
