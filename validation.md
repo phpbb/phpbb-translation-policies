@@ -5,15 +5,15 @@ Below are the validation rules for phpBB language packages.
 ## Package Validation
 * Language packages must include all files that are included in the folders for the English language. This includes the following folders:
 	+ `language/en/`
-	+ `styles/prosilver/imageset/en/`
-	+ `styles/subsilver2/imageset/en/`.
+	+ `styles/prosilver/theme/en/`
+	+ `styles/subsilver2/theme/en/`.
 * Language packages must contain 1 additional files:
 	+ `language/{iso}/LICENSE`
 * Language packages may contain 4 more additional files: 
-	+ `language/{iso}/AUTHORS`
-	+ `language/{iso}/CHANGELOG`
-	+ `language/{iso}/README`
-	+ `language/{iso}/VERSION`
+	+ `language/{iso}/AUTHORS` or `language/{iso}/AUTHORS.md`
+	+ `language/{iso}/CHANGELOG` or `language/{iso}/CHANGELOG.md`
+	+ `language/{iso}/README` or `language/{iso}/README.md`
+	+ `language/{iso}/VERSION` or `language/{iso}/VERSION.md`
 * No other additional files are allowed!
 * All folders must contain an `index.htm` file.		
 
@@ -26,7 +26,8 @@ Below are the validation rules for phpBB language packages.
 			exit;
 		}
 * All files containing non-english language (`.php`, `.txt`, aswell as all additional files from [section 1.](#package-validation "Package Validation")) must be saved as *UTF8 without BOM*.
-* `.php` files must **not** produce any output. There should be no characters before `<?php` and none after `?>` in the file
+* `.php` files must **not** produce any output. There should be no characters before `<?php`.
+`.php` files must **not** contain the closing tag `?>`, but just end with a new line
 
 ### `language/{iso}/iso.txt`
 * The file must contain exactly 3 lines:
@@ -77,7 +78,7 @@ The `index.htm` files in all folders must either be completly empty, or contains
 	+ If both, TextA and TextB, are `--` the entry causes a column switch for the 2 column page layout. A `help_*.php` file must contain exactly one of these entries.
 * For TextA and TextB normal [Key Validation](#key-validation) applies.
 		
-### `language/{iso}/email/*.txt`
+### `language/{iso}/email/*.txt` and `language/{iso}/email/short/*.txt`
 * Emails must only contain the subject-line, when the english email template also contains it:
 
 		Subject: {Translated subject here}
@@ -85,7 +86,7 @@ The `index.htm` files in all folders must either be completly empty, or contains
 * Emails should use all variables that are provided in the english email template, in order to provide the same information to the user.
 * Emails may only contain `{U_BOARD}`, `{EMAIL_SIG}` and `{SITENAME}` as additional variables. No other variables are available.
 * Emails must not use HTML content.
-* There should be always an empty new line at the end of the file.
+* There must be an empty new line at the end of the file.
 		
 ### `language/{iso}/*.php` and  `language/{iso}/acp/*.php`
 * The file must must only contain 1 array named `$lang`. No other variables are allowed.
