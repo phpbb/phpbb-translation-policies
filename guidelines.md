@@ -132,22 +132,15 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                     viewtopic.php
               styles/
                  prosilver/
-                    imageset/
+                    theme/
                        {iso}/
-                          button_pm_forward.gif
-                          button_pm_new.gif
-                          button_pm_reply.gif
-                          button_topic_locked.gif
-                          button_topic_new.gif
-                          button_topic_reply.gif
                           icon_contact_pm.gif
                           icon_post_edit.gif
                           icon_post_quote.gif
                           icon_user_online.gif
-                          imageset.cfg
-                          index.htm
+                          stylesheet.css
                  subsilver2/
-                    imageset/
+                    theme/
                        {iso}/
                           button_pm_new.gif
                           button_pm_reply.gif
@@ -172,8 +165,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                           icon_user_profile.gif
                           icon_user_search.gif
                           icon_user_warn.gif
-                          imageset.cfg
-
+                          stylesheet.css
 
 5. Submissions have to follow as much as possible the [3.1 Translation (i18n/L10n) Guidelines](https://area51.phpbb.com/docs/31x/coding-guidelines.html#translation "3.1 Translation (i18n/L10n) Guidelines") recommandantions, especially the [3.1 Writing style](https://area51.phpbb.com/docs/31x/coding-guidelines.html#writingstyle "3.1 Writing style").
 
