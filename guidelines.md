@@ -39,7 +39,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                        extensions.php
                        forums.php
                        groups.php
-                       index.htm
+                       index.htm (optional)
                        language.php
                        modules.php
                        permissions.php
@@ -53,6 +53,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                     email/
                        short/
                           bookmark.txt
+                          index.htm (optional)
                           newtopic_notify.txt
                           post_approved.txt
                           post_disapproved.txt
@@ -76,7 +77,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                        forum_notify.txt
                        group_approved.txt
                        group_request.txt
-                       index.htm
+                       index.htm (optional)
                        installed.txt
                        newtopic_notify.txt
                        pm_report_closed.txt
@@ -113,7 +114,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                     groups.php
                     help_bbcode.php
                     help_faq.php
-                    index.htm
+                    index.htm (optional)
                     install.php
                     iso.txt
                     LICENSE
@@ -138,6 +139,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                           icon_post_edit.gif
                           icon_post_quote.gif
                           icon_user_online.gif
+                          index.htm (optional)
                           stylesheet.css
                  subsilver2/
                     theme/
@@ -165,6 +167,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                           icon_user_profile.gif
                           icon_user_search.gif
                           icon_user_warn.gif
+                          index.htm (optional)
                           stylesheet.css
 
 5. Submissions have to follow as much as possible the [3.1 Translation (i18n/L10n) Guidelines](https://area51.phpbb.com/docs/31x/coding-guidelines.html#translation "3.1 Translation (i18n/L10n) Guidelines") recommandantions, especially the [3.1 Writing style](https://area51.phpbb.com/docs/31x/coding-guidelines.html#writingstyle "3.1 Writing style").
