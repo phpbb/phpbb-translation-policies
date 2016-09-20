@@ -71,11 +71,12 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                        admin_welcome_activated.txt
                        admin_welcome_inactive.txt
                        bookmark.txt
+                       contact_admin.txt
                        coppa_resend_inactive.txt
                        coppa_welcome_inactive.txt
                        email_notify.txt
                        forum_notify.txt
-                       group_approved.txt
+                       group_added.txt
                        group_request.txt
                        index.htm (optional)
                        installed.txt
@@ -109,6 +110,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                     AUTHORS (optional)
                     captcha_qa.php
                     captcha_recaptcha.php
+                    cli.php
                     CHANGELOG (optional)
                     common.php
                     groups.php
@@ -135,9 +137,6 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                  prosilver/
                     theme/
                        {iso}/
-                          icon_contact_pm.gif
-                          icon_post_edit.gif
-                          icon_post_quote.gif
                           icon_user_online.gif
                           index.htm (optional)
                           stylesheet.css
