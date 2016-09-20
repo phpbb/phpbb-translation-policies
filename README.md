@@ -1,6 +1,6 @@
 # phpBB Translation Policies
 
-Policies for **phpBB 3.0 Olympus**
+Policies for **phpBB 3.1 Ascraeus**
 
 + [Language Pack Submission Policy](guidelines.md "Language Pack Submission Policy")
 
