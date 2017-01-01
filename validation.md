@@ -4,9 +4,9 @@ Below are the validation rules for phpBB language packages.
 
 ## Package Validation
 * Language packages must include all files that are included in the folders for the English language. This includes the following folders:
+	+ `ext/phpbb/viglink/language/en/`
 	+ `language/en/`
-	+ `styles/prosilver/theme/en/`
-	+ `styles/subsilver2/theme/en/`.
+	+ `styles/prosilver/theme/en/`.
 * Language packages must contain 1 additional files:
 	+ `language/{iso}/LICENSE`
 * Language packages may contain 4 more additional files: 
@@ -56,17 +56,9 @@ The `index.htm` files in all folders must either be completly empty, or contains
 
 		$words = array(
 		);
-		
-### `language/{iso}/search_synonyms.php`
-* The file must must only contain 1 array named `$synonyms`. No other variables are allowed.
-* The array must only contain `string` to `string` pairs, anything else is not allowed.
-* If you do not wish to use this file, you can either use the english `search_synonyms.php` or you just use an empty array:
 
-		$synonyms = array(
-		);
-		
-### `language/{iso}/help_*.php`
-* The file must must only contain 1 array named `$help`. No other variables are allowed.
+### `language/{iso}/help/*.php`
+* The file must must only contain 1 array named `$lang`. No other variables are allowed.
 * The array must only contain arrays with the following structure:
 
 		array(
