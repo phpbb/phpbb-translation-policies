@@ -49,9 +49,8 @@ The `index.htm` files in all folders must either be completly empty, or contains
 		</body>
 		</html>
 		
-### `language/{iso}/help_*.php`
-* The file must must only contain 1 array named `$help`. No other variables are allowed.
->>>>>>> develop-ascraeus
+### `language/{iso}/help/*.php`
+* The file must must only contain 1 array named `$lang`. No other variables are allowed.
 * The array must only contain arrays with the following structure:
 
 		array(
