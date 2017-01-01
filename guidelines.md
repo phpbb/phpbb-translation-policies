@@ -1,7 +1,7 @@
 # Language Pack Submission Policy
 
 Below are the procedures and guidelines that need to be followed by any translator submitting a language pack to our Customisation Database.
-All approved language packs can be found in our [Language Packs Database](https://www.phpbb.com/customise/db/language_packs-25/ "Language Packs Database").
+All approved language packs can be found in our [Language Packs Database](https://www.phpbb.com/languages/ "Language Packs Database").
 If you submit your language pack to our Customisation Database, it will first be automatically sent to the Translations Manager for validation.
 He is responsible for ensuring that your submission follows the guidelines below.
 Failure to comply with the following instructions could lead to an instant denial of your submission.
@@ -173,7 +173,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
 
 
 6. All the PHP and text files have to be encoding in UTF-8 without BOM and a new line at the end of the file. Many modern text editors use this as a default setting, but we recommend checking it in your editor's settings.
-We recommend you [Notepad++](http://notepad-plus.sourceforge.net/ "Notepad++") or [PSPad](http://www.pspad.com/en/ "PSPad"), both lightweight and free.
+We recommend you [Notepad++](https://notepad-plus-plus.org/ "Notepad++") or [PSPad](http://www.pspad.com/en/ "PSPad"), both lightweight and free.
 
 
 7. The translation is mostly your work and you have a right to hold a copyright and names to it.
