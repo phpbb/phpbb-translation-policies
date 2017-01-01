@@ -94,6 +94,7 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                        report_deleted.txt
                        report_pm.txt
                        report_post.txt
+                       test.txt
                        topic_approved.txt
                        topic_disapproved.txt
                        topic_in_queue.txt
@@ -106,6 +107,9 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                        user_resend_inactive.txt
                        user_welcome.txt
                        user_welcome_inactive.txt
+                    help/
+                       bbcode.php
+                       faq.php
                     app.php
                     AUTHORS (optional)
                     captcha_qa.php
@@ -114,8 +118,6 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                     CHANGELOG (optional)
                     common.php
                     groups.php
-                    help_bbcode.php
-                    help_faq.php
                     index.htm (optional)
                     install.php
                     iso.txt
@@ -127,8 +129,6 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                     posting.php
                     README (optional)
                     search.php
-                    search_ignore_words.php
-                    search_synonyms.php
                     ucp.php
                     VERSION (optional)
                     viewforum.php
@@ -140,40 +140,12 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                           icon_user_online.gif
                           index.htm (optional)
                           stylesheet.css
-                 subsilver2/
-                    theme/
-                       {iso}/
-                          button_pm_new.gif
-                          button_pm_reply.gif
-                          button_topic_locked.gif
-                          button_topic_new.gif
-                          button_topic_reply.gif
-                          icon_contact_aim.gif
-                          icon_contact_email.gif
-                          icon_contact_icq.gif
-                          icon_contact_jabber.gif
-                          icon_contact_msnm.gif
-                          icon_contact_pm.gif
-                          icon_contact_www.gif
-                          icon_contact_yahoo.gif
-                          icon_post_delete.gif
-                          icon_post_edit.gif
-                          icon_post_info.gif
-                          icon_post_quote.gif
-                          icon_post_report.gif
-                          icon_user_offline.gif
-                          icon_user_online.gif
-                          icon_user_profile.gif
-                          icon_user_search.gif
-                          icon_user_warn.gif
-                          index.htm (optional)
-                          stylesheet.css
 
-5. Submissions have to follow as much as possible the [3.1 Translation (i18n/L10n) Guidelines](https://area51.phpbb.com/docs/31x/coding-guidelines.html#translation "3.1 Translation (i18n/L10n) Guidelines") recommandantions, especially the [3.1 Writing style](https://area51.phpbb.com/docs/31x/coding-guidelines.html#writingstyle "3.1 Writing style").
+5. Submissions have to follow as much as possible the [3.2 Translation (i18n/L10n) Guidelines](https://area51.phpbb.com/docs/32x/coding-guidelines.html#translation "3.2 Translation (i18n/L10n) Guidelines") recommandantions, especially the [3.2 Writing style](https://area51.phpbb.com/docs/32x/coding-guidelines.html#writingstyle "3.2 Writing style").
 
 
 6. All the PHP and text files have to be encoding in UTF-8 without BOM and a new line at the end of the file. Many modern text editors use this as a default setting, but we recommend checking it in your editor's settings.
-We recommend you [Notepad++](http://notepad-plus.sourceforge.net/ "Notepad++") or [PSPad](http://www.pspad.com/en/ "PSPad"), both lightweight and free.
+We recommend you [Notepad++](https://notepad-plus-plus.org/ "Notepad++") or [PSPad](http://www.pspad.com/en/ "PSPad"), both lightweight and free.
 
 
 7. The translation is mostly your work and you have a right to hold a copyright and names to it.
