@@ -26,6 +26,13 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
 
         languagename_versionnumber.zip
            languagename_versionnumber/
+              ext/
+                 phpbb/
+                    viglink/
+                       language/
+                          {iso}/
+                             info_acp_viglink.php
+                             viglink_module_acp.php
               language/
                  {iso}/
                     acp/
