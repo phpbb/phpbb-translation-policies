@@ -49,22 +49,6 @@ The `index.htm` files in all folders must either be completly empty, or contains
 		</body>
 		</html>
 		
-### `language/{iso}/search_ignore_words.php`
-* The file must must only contain 1 array named `$words`. No other variables are allowed.
-* The array must only contain entries of type `string`, integers or nested entries are not allowed.
-* If you do not wish to use this file, you can either use the english `search_ignore_words.php` or you just use an empty array:
-
-		$words = array(
-		);
-		
-### `language/{iso}/search_synonyms.php`
-* The file must must only contain 1 array named `$synonyms`. No other variables are allowed.
-* The array must only contain `string` to `string` pairs, anything else is not allowed.
-* If you do not wish to use this file, you can either use the english `search_synonyms.php` or you just use an empty array:
-
-		$synonyms = array(
-		);
-		
 ### `language/{iso}/help_*.php`
 * The file must must only contain 1 array named `$help`. No other variables are allowed.
 * The array must only contain arrays with the following structure:
