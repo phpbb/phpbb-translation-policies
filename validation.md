@@ -49,16 +49,9 @@ The `index.htm` files in all folders must either be completly empty, or contains
 		</body>
 		</html>
 		
-### `language/{iso}/search_ignore_words.php`
-* The file must must only contain 1 array named `$words`. No other variables are allowed.
-* The array must only contain entries of type `string`, integers or nested entries are not allowed.
-* If you do not wish to use this file, you can either use the english `search_ignore_words.php` or you just use an empty array:
-
-		$words = array(
-		);
-
-### `language/{iso}/help/*.php`
-* The file must must only contain 1 array named `$lang`. No other variables are allowed.
+### `language/{iso}/help_*.php`
+* The file must must only contain 1 array named `$help`. No other variables are allowed.
+>>>>>>> develop-ascraeus
 * The array must only contain arrays with the following structure:
 
 		array(
