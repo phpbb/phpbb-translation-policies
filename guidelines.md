@@ -12,7 +12,7 @@ If your language pack is denied and then resubmitted, it is placed at the end of
 1. Submissions have to be compatible with the latest version of phpBB. Any missing key will be detected during the upload process and your submission will be automatically denied.
 
 
-2. Submissions have to be complete. Partial translations are not allowed and will be systematically denied. E-mail text files and theme-images must also be fully translated. Only `search_ignore_words.php` and `search_synonyms.php` are allowed to be untranslated. However, they must still be included, have the basic file structure and just an empty array `$words` or `$synonyms` respectively.
+2. Submissions have to be complete. Partial translations are not allowed and will be systematically denied. E-mail text files and theme-images must also be fully translated.
 
 
 3. Language packs can contain five additional files (one mandatory and four optionals) that are not present in the British English language pack: `LICENSE` (mandatory), `README` / `README.md` (optional), `AUTHORS` / `AUTHORS.md` (optional), `VERSION` / `VERSION.md` (optional) and `CHANGELOG` / `CHANGELOG.md` (optional). 
