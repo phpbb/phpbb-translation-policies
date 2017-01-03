@@ -15,7 +15,7 @@ If your language pack is denied and then resubmitted, it is placed at the end of
 2. Submissions have to be complete. Partial translations are not allowed and will be systematically denied. E-mail text files and theme-images must also be fully translated.
 
 
-3. Language packs can contain five additional files (one mandatory and four optionals) that are not present in the British English language pack: `LICENSE` (mandatory), `README` / `README.md` (optional), `AUTHORS` / `AUTHORS.md` (optional), `VERSION` / `VERSION.md` (optional) and `CHANGELOG` / `CHANGELOG.md` (optional). 
+3. Language packs can contain five additional files (one mandatory and four optionals) that are not present in the British English language pack: `LICENSE` (mandatory), `README.md` (optional), `AUTHORS.md` (optional), `VERSION.md` (optional) and `CHANGELOG.md` (optional). 
 You are free to write whatever you want in the `README` file, you can list all the authors and contributors of your language pack in the `AUTHORS` file, you can put the version of your language pack in the `VERSION` file and you can list all the version history in the `CHANGELOG` file.
 Concerning the `LICENSE` file, it is automatically added during the upload process, you do not have to manually add it. It tells to the user the license used.
 Language packs inherits phpBB's license [GNU General Public License 2.0](http://www.opensource.org/licenses/gpl-2.0.php "GNU General Public License 2.0"), and no additional or alternative licenses are allowed.
@@ -118,11 +118,11 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                        bbcode.php
                        faq.php
                     app.php
-                    AUTHORS (optional)
+                    AUTHORS.md (optional)
                     captcha_qa.php
                     captcha_recaptcha.php
                     cli.php
-                    CHANGELOG (optional)
+                    CHANGELOG.md (optional)
                     common.php
                     groups.php
                     index.htm (optional)
@@ -134,10 +134,10 @@ These files must be placed in the `language/{iso}/` directory, next to the `iso.
                     migrator.php
                     plupload.php
                     posting.php
-                    README (optional)
+                    README.md (optional)
                     search.php
                     ucp.php
-                    VERSION (optional)
+                    VERSION.md (optional)
                     viewforum.php
                     viewtopic.php
               styles/

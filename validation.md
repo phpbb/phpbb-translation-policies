@@ -10,10 +10,10 @@ Below are the validation rules for phpBB language packages.
 * Language packages must contain 1 additional files:
 	+ `language/{iso}/LICENSE`
 * Language packages may contain 4 more additional files: 
-	+ `language/{iso}/AUTHORS` or `language/{iso}/AUTHORS.md`
-	+ `language/{iso}/CHANGELOG` or `language/{iso}/CHANGELOG.md`
-	+ `language/{iso}/README` or `language/{iso}/README.md`
-	+ `language/{iso}/VERSION` or `language/{iso}/VERSION.md`
+	+ `language/{iso}/AUTHORS.md`
+	+ `language/{iso}/CHANGELOG.md`
+	+ `language/{iso}/README.md`
+	+ `language/{iso}/VERSION.md`
 * No other additional files are allowed!
 * All folders must contain an `index.htm` file.		
 
