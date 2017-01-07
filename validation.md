@@ -59,7 +59,7 @@ The `index.htm` files in all folders must either be completly empty, or contains
 		),
 
 	+ If TextA is `--` the entry is a headline.
-	+ If both, TextA and TextB, are `--` the entry causes a column switch for the 2 column page layout. A `help_*.php` file must contain exactly one of these entries.
+	+ If both, TextA and TextB, are `--` the entry causes a column switch for the 2 column page layout. A `help/*.php` file must contain exactly one of these entries.
 * For TextA and TextB normal [Key Validation](#key-validation) applies.
 		
 ### `language/{iso}/email/*.txt` and `language/{iso}/email/short/*.txt`
